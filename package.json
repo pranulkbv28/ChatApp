@@ -1,0 +1,25 @@
+{
+  "name": "complete-chat-app-git",
+  "version": "1.0.0",
+  "description": "This is a complete chat app with real-time messaging, user auth and other features.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranulkbv28/ChatApp.git"
+  },
+  "keywords": [
+    "Chat-App",
+    "MERN",
+    "fullstack"
+  ],
+  "author": "pranulkbv28",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pranulkbv28/ChatApp/issues"
+  },
+  "homepage": "https://github.com/pranulkbv28/ChatApp#readme"
+}
