@@ -17,6 +17,8 @@ const UseGetMessages = () => {
 
         if (data.error) throw new Error(data.Error);
 
+        console.log("UseGetMessage shows the gotten messages: ", data);
+
         setMessages(data);
 
         // const res = await

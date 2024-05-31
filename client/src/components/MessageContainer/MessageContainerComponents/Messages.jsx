@@ -8,6 +8,14 @@ const Messages = () => {
   const { messages, loading } = useGetMessages();
   useListenMessages();
 
+  // if (messages.newMessage) {
+  //   console.log("this is the new message: ", messages.newMessage);
+  // }
+
+  console.log("Messages Collection: ", messages);
+  console.log("Messages Collection Length: ", messages.length);
+  console.log("Last message: ", messages[length - 2]);
+
   const lastMessageRef = useRef(null);
 
   useEffect(() => {
@@ -24,6 +32,7 @@ const Messages = () => {
         messages.length > 0 &&
         messages.map((message, index) => {
           const isLastMessage = index === messages.length - 1;
+          // message = messages.newMessage ? messages.newMessage : message;
           return (
             <div key={message._id} ref={isLastMessage ? lastMessageRef : null}>
               <SingleMessage key={message._id} message={message} />
