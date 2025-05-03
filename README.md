@@ -14,7 +14,7 @@
 
 Head to the [``` backend ```](https://github.com/pranulkbv28/ChatApp/tree/main/server) for next steps
 
-### Frontend
+### Fronten
 
 - Head to the ```client``` folder
 
